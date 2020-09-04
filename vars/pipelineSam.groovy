@@ -9,8 +9,8 @@ def call() {
             }
             stage('Build') {
                 steps {
-                    // buildSam "devops-metrics-project"
-                    echo "Build"
+                    buildSam "devops-metrics-project"
+                    // echo "Build"
                 }
             }
         }
