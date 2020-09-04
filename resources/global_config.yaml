@@ -1,0 +1,2 @@
+build_sam:
+  sam build --use-container
